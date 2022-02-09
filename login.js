@@ -1,20 +1,20 @@
-// const signUp = e => {
+//   method 1
+
+const signUp = e => {
     
-//     const form ={
-//         name:document.getElementById('name').value,
-//         email:document.getElementById('email').value,
-//         password:document.getElementById('password').value
+    const form ={
+        name:document.getElementById('name').value,
+        email:document.getElementById('email').value,
+        password:document.getElementById('password').value
 
-//     }
+    }
 
-//     localStorage.setItem('form',JSON.stringify(form));
-//     // document.write = localStorage.getItem('form');
-//     frmData();
-//     e.preventDefault();
+    localStorage.setItem('form',JSON.stringify(form));
+    frmData();
 
-// }
+}
 
-
+// method 2
 
 // const logIn = e =>{
 //     const name = document.getElementById('name').value;
