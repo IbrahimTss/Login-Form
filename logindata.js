@@ -1,4 +1,5 @@
-document.addEventListener('load',()=> {
+document.addEventListener('click' , () =>{
+
 
     const params = (new URL(document.location)).searchParams;
     const name = params.get('name');
